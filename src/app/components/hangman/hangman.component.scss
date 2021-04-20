@@ -1,0 +1,45 @@
+:host {
+  position: absolute;
+  width: 81px;
+  height: 200px;
+  right: 123px;
+  top: 124px;
+}
+.hangman-draw {
+  img {
+    position: absolute;
+  }
+  .head {
+    position: absolute;
+  }
+  .body-upper {
+    transform: rotate(90deg);
+    left: 23px;
+    top: 107px;
+  }
+  .body-lower {
+    transform: rotate(90deg);
+    left: 23px;
+    top: 146px;
+  }
+  .left-hand {
+    transform: rotate(45deg);
+    left: 7px;
+    top: 111px;
+  }
+  .right-hand {
+    transform: rotate(135deg);
+    left: 38px;
+    top: 112px;
+  }
+  .left-leg {
+    transform: rotate(135deg);
+    left: 8px;
+    top: 178px;
+  }
+  .right-leg {
+    transform: rotate(45deg);
+    left: 38px;
+    top: 177px;
+  }
+}

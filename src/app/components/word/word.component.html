@@ -1,0 +1,6 @@
+<div class="hangman-word">
+  <div *ngFor="let letter of letters" class="letter-field">
+    <div *ngIf="selectedLetters[letter]">{{letter}}</div>
+    <img class="line-image" src="../../../assets/images/bodyElement.png" />
+  </div>
+</div>

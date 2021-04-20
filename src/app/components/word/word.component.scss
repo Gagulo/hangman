@@ -1,0 +1,20 @@
+:host {
+  width: 500px;
+  position: absolute;
+  top: 200px;
+  left: 90px;
+  .hangman-word {
+    display: flex;
+    font-size: 30px;
+    color: white;
+  }
+  .letter-field {
+    position: relative;
+    flex: 1;
+    .line-image {
+      position: absolute;
+      top: 35px;
+      left: -10px;
+    }
+  }
+}

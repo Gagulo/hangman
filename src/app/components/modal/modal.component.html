@@ -1,0 +1,14 @@
+<div class="modal-container">
+  <div *ngIf="!gameWon && success || !success; else game_won">
+    <p>
+      {{success ? "WELL DONE!" : "GAME OVER"}}
+    </p>
+    <button *ngIf="!success" (click)="resetGame()">Reset Game</button>
+    <button *ngIf="success" (click)="nextLevel()">Next Level</button>
+  </div>
+
+  <ng-template #game_won>
+    <p>You've Won</p>
+    <button (click)="resetGame()">Start New Game</button>
+  </ng-template>
+</div>
